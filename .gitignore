@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# SQLite session databases
+*.db
+*.sqlite3
+
+# Results / outputs
+results/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FAISS index files
+*.index
+*.faiss
+
+# Model weights / checkpoints (never commit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
